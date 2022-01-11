@@ -4,6 +4,7 @@ package com.ms.email.models;
 import com.ms.email.enums.StatusEmail;
 import lombok.Data;
 import javax.persistence.*;
+import java.io.Serial;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
@@ -13,6 +14,7 @@ import java.time.LocalDateTime;
 
 public class EmailModel implements Serializable {
 
+    @Serial
     private static final long serialVersionUID = 1L;
 
 
