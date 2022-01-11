@@ -11,7 +11,6 @@ import java.time.LocalDateTime;
 @Data
 @Entity
 @Table(name = "TB_EMAIL")
-
 public class EmailModel implements Serializable {
 
     @Serial
